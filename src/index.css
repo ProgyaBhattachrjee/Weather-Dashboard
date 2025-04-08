@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+html,
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
+
+.bg-white {
+  @apply bg-white shadow-md;
+}
+
+.bg-gray-100 {
+  @apply bg-gray-100;
+}
+
+h1,
+h2,
+h3,
+label,
+p,
+span {
+  @apply text-gray-900;
+}
+
+.dark body {
+  @apply bg-gray-900 text-white;
+}
+
+.dark .bg-white {
+  @apply bg-gray-800;
+}
+
+.dark .bg-gray-100 {
+  @apply bg-gray-700;
+}
+
+.dark input,
+.dark button,
+.dark .card,
+.dark .search-bar {
+  @apply text-white bg-gray-800 border border-gray-600;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark label,
+.dark p,
+.dark span {
+  @apply text-white;
+}
