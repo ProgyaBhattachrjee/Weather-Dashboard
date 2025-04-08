@@ -15,4 +15,9 @@ API Integration:
 🌤️ OpenWeatherMap API
 
 🔄 Axios for HTTP requests
+Deployment:
+
+🚀 Netlify
+link: https://lucky-gecko-32c141.netlify.app/
+
 # Weather-Dashboard
